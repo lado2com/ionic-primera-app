@@ -20,8 +20,9 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
+      this.statusBar.styleDefault(); //Funciona en móvil
+      this.splashScreen.hide();      //Funciona en móvil
+      
     });
   }
 }
